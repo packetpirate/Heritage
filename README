@@ -1,0 +1,30 @@
+-----------------------
+Author: Darin Beaudreau
+Last Update: 07/25/2012
+Version: 1.0
+Language: Java
+-----------------------
+
+Description:
+------------
+Heritage is a simple GUI program used to determine what percentage of each nationality you are from your family tree. You input your ancestor's names and nationalities, and based on that input, you can find out your heritage.
+
+Sample Input:
+-------------
+For simplicity's sake, let's assume you are only inputting your Mother and Father's data. If your Mother is French / Swedish, and your Father is Swedish / Polish, then you would be 50% Swedish, 25% French, and 25% Polish.
+
+How to Use:
+-----------
+The Ancestor list displays which ancestor you have currently selected. The root node will say "You" and represents you in the family tree. If you click the Add button beneath this list, it will prompt you asking if you would like to add your Father or Mother. Once you select one, it will prompt you for their name. After you have added either your Father or Mother, you can click the "F" or "M" buttons to view your Father or Mother, respectively, in the family tree. You can also click the Delete button under that list to choose a parent to Delete from your tree. The Child button will show your the currently selected parent's child, assuming it is not the root node.
+
+The Nationalities list will show you whatever nationalities you have selected for the currently selected ancestor. Below it are three buttons. The Add button will allow you to add a nationality to the currently selected ancestor. The Delete button will do the opposite. The final button, Calculate Heritage, will use all the data you have input to calculate your heritage. The percentages, along with the nationalities, will be displayed in the "Results" list below the rest of the form.
+
+
+
+Known Bugs:
+-----------
+- If you do not specify both parents for a child, the heritage will not calculate properly and will not display. This will be fixed in version 1.1
+- Occasionally, the results list will display a "null" nationality with a random percentage.
+
+
+If you have any suggestions, or would like to report a bug, please e-mail me at: darinbeaudreau@gmail.com
